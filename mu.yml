@@ -4,7 +4,7 @@ environments:
     provider: ecs-fargate
   - name: production
     provider: ecs-fargate
-    service:
+service:
     acceptance:
       disabled: true
     production:
